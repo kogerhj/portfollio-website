@@ -7,3 +7,14 @@
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
