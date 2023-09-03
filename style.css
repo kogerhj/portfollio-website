@@ -5,6 +5,8 @@
 }
 
 body {
+    background-image: url("./assets/5299129.jpg");
+    background-size: cover;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
