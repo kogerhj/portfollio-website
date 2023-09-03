@@ -48,3 +48,9 @@ nav {
 main {
     color: white;
 }
+
+.home-greeting-container {
+    width: 50%;
+    margin: 5rem auto;
+    padding: 1rem;
+}
