@@ -42,9 +42,17 @@ nav {
 
 .nav-btn {
     color: white;
+    opacity: 0.8;
     font-size: 1.2rem;
     background-color: transparent;
     border: none;
+    transition: 0.2s;
+}
+
+.nav-btn:hover {
+    cursor: pointer;
+    opacity: 1.0;
+    transition: 0.2s;
 }
 
 main {
