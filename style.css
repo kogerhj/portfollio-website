@@ -23,7 +23,8 @@ nav {
 }
 
 .header {
-    background-color: rgb(244, 235, 245);
+    color: white;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
 }
@@ -38,7 +39,12 @@ nav {
 }
 
 .nav-btn {
+    color: white;
     font-size: 1.2rem;
     background-color: transparent;
     border: none;
+}
+
+main {
+    color: white;
 }
