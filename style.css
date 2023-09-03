@@ -12,6 +12,7 @@ body {
 }
 
 nav ul {
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,7 +37,7 @@ nav {
 
 .header-logo {
     margin: 0.5rem;
-    position:relative;
+    position: absolute;
 }
 
 .nav-btn {
