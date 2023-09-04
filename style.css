@@ -1,3 +1,10 @@
+:root {
+    --dark-charcoal: #303841;
+    --light-charcoal: #3a4750; 
+    --cyan-ish: #00adb5; 
+    --light-grey: #eeeeee; 
+}
+
 * { 
     margin: 0;
     padding: 0;
