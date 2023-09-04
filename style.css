@@ -26,11 +26,10 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
-    align-items: center;
 }
 
 nav {
-    width: 30%;
+    width: 40%;
 }
 
 .header {
@@ -38,6 +37,7 @@ nav {
     background-color: transparent;
     display: flex;
     flex-direction: row;
+    padding: 0.5rem;
 }
 
 .nav-bar {
@@ -50,6 +50,8 @@ nav {
 }
 
 .nav-btn {
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
     color: var(--light-grey);
     opacity: 0.8;
     font-size: 1.2rem;
@@ -59,9 +61,16 @@ nav {
 }
 
 .nav-btn:hover {
+    background-color: var(--dark-charcoal);
     cursor: pointer;
     opacity: 1.0;
     transition: 0.2s;
+}
+
+.nav-btn:active {
+    color: white;
+    scale: 0.97;
+    transition: 0.02s;
 }
 
 main {
